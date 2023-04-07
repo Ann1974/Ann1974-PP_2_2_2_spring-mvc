@@ -28,11 +28,5 @@ public class CarController {
         return "cars";
     }
 
-//    public String getCar(ModelMap modelMap){
-//
-//        List <Car> cars = carService.getCountCar(count);//  ?????????
-//        modelMap.addAttribute("cars",cars);
-//        return "cars";
-//    }
 
     }
