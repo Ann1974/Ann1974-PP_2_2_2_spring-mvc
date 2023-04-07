@@ -33,9 +33,6 @@ public class Car {
         this.series = series;
     }
 
-    public Car() {
-    }
-
     public Car(String color, String model, int series) {
         this.color = color;
         this.model = model;
