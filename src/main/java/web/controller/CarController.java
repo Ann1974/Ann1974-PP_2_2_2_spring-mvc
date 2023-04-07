@@ -28,5 +28,4 @@ public class CarController {
         return "cars";
     }
 
-
     }
