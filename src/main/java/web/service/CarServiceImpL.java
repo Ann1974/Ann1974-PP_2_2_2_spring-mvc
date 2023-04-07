@@ -17,10 +17,6 @@ public class CarServiceImpL implements CarService{
         carList.add(new Car("white","mazda", 2));
         carList.add(new Car("black","bmw", 6));
     }
-//    @Override
-//    public List<Car> getCar() {
-//        return carList;
-//    }
 
 
     @Override
@@ -30,14 +26,5 @@ public class CarServiceImpL implements CarService{
 
         }
         return carList.subList(0, count);
-
-//       if ((count == null || count < 1)){
-//           count = carList.size();
-//       }else if (count > carList.size()){
-//           throw new IllegalArgumentException("Запрошенное" +
-//                   "количество машин больше, чем количество машин в списке");
-//
-//       }
-//       return carList.subList(0, count);
     }
 }
